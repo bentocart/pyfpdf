@@ -20,7 +20,9 @@ def textstring(s):
         return ''
 
 def escape(s):
-    'Add \ before \, ( and )'
+    """
+    Add \ before \, ( and )
+    """
     return s.replace('\\', '\\\\') \
             .replace(')', '\\)') \
             .replace('(', '\\(') \
