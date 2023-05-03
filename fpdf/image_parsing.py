@@ -7,7 +7,7 @@ from six import BytesIO
 
 import numpy
 from PIL import Image
-from urllib import urlopen
+from urllib.request import urlopen
 
 from .errors import fpdf_error
 from .php import substr
